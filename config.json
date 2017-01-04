@@ -1,0 +1,37 @@
+{
+  "sleep": 0,
+  "ticks": 500,
+  "step": 1,
+  "debug": 0,
+  "dimensions": {
+    "m": 5,
+    "n": 5
+  },
+  "neighborhoods": {
+    "water": {
+      "max_z": 10,
+      "min_z": 0,
+      "evaporation_rate": 0.05,
+      "available_threshold": 0.10
+    },
+    "cloud": {
+      "max_z": 60,
+      "min_z": 50,
+      "rain_threshold": 0.75,
+      "rainfall": 0.05
+    },
+    "fire": {
+      "max_z": 40,
+      "min_z": 30,
+      "fire_threshold": 0.5,
+      "decay": 0.02,
+      "rain_decay": 0.03
+    },
+    "veg": {
+      "max_z": 30,
+      "min_z": 20,
+      "dry_threshold": 0.3,
+      "water_draw": 0.10
+    }
+  }
+}
